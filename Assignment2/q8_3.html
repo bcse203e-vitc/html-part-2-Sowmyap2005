@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Our Website</title>
+    <style>
+        aside {
+            background-color: #f1f1f1;
+            padding: 15px;
+            margin-left: 20px ;
+            border: 1px solid;
+            float:"right";
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://img.freepik.com/free-vector/green-abstract-logotype_1055-314.jpg?t=st=1734865935~exp=1734869535~hmac=3c575cc0c7d3b67dc9504178d758fa9034059d9159507637957b0ed2f894c086&w=740" alt="Site Logo" width="100">
+        <nav>
+            <a href="C:\Users\sowmy\Desktop\WP_ASSIGNMENT2\q8_1.html">Home</a>
+            <a href="C:\Users\sowmy\Desktop\WP_ASSIGNMENT2\q8_2.html">About</a>
+            <a href="C:\Users\sowmy\Desktop\WP_ASSIGNMENT2\q8_3.html">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to get in touch, please use the form below.</p>
+
+        <form action="submit_form.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <aside>
+        <h3>Our Location</h3>
+        <p>1234 Example Street, Cityville, Country</p>
+        <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*hkREH8IGOZULHDfxZsnArw.png" alt="Map Image" width="300" height="200">
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 SCompany</p>
+    </footer>
+</body>
+</html>
